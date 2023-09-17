@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exploring Bootstrap</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid p-4">
+              <a class="navbar-brand text-white fw-bold" href="#">Bootstrap Practice</a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+    <!-- Header -->
+          <header class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner bg-secondary">
+                <div class="carousel-item active">
+                  <img src="https://scoopcar.com/wp-content/uploads/2020/05/videoblocks-targeted-web-development-solutions-as-an-animation-concept-4k-uhd-motion-video_bhcv2dxab_thumbnail-full09-1-1024x576.png" class="d-block w-100 img_1" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white fw-bold display-5">Web Development</h5>
+                    <p>Encompasses a broad range of tasks from coding, to technical design, to performance of a website or application running on the internet.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.QOHdqAtLjgCUH44Ye7ChPAHaEK&pid=Api&P=0&h=180" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class=" fw-bold display-5" >Repeat</h5>
+                    <p>You will be better than yesterday</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701456756-1024x576.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class=" fw-bold display-5" >Display</h5>
+                    <p>Just a Display</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </header>
+
+          <!-- card -->
+          
+            <main class="container-fluid bg-primary p-5">
+              <div class="row gx-1">
+                <div class="col-lg-4 col-md-12 mb-3">
+                  <div class="card w-100 h-100"  >
+                    <img src="https://clipground.com/images/html5-png-image-10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold display-5">HTML</h5>
+                      <p class="card-text fw-bold">Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://www.w3schools.com/html/" class="card-link">Card link</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-12 mb-3">
+                  <div class="card w-100 h-100" >
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/css-118-569410.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold display-5">CSS</h5>
+                      <p class="card-text fw-bold">Cascading Style Sheets, describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://www.w3schools.com/Css/" class="card-link">Card link</a>
+                      
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-3">
+                  <div class="card w-100 h-100" >
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold display-5">Bootstrap</h5>
+                      <p class="card-text fw-bold">Bootstrap is the most popular CSS framework for developing responsive and mobile-first websites.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://getbootstrap.com/" class="card-link">Card link</a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            
+            </main>
+          
+          
+
+          <!-- footer -->
+        
+          <footer class="container-fluid bg-dark text-white text-center p-5">
+            <h3>Bootstrap Practice</h3>
+            <p>Follow us on our social media</p>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+        </footer>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
